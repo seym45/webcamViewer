@@ -94,7 +94,7 @@
      <number>2</number>
     </property>
     <property name="text">
-     <string>Video Frame</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="btnPrint">
@@ -137,6 +137,33 @@
     </property>
     <property name="text">
      <string>Add Text</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="topLabel">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>22</y>
+      <width>681</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string>Video will played here at the time of inactivity</string>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>   Advertise here</string>
     </property>
    </widget>
   </widget>
